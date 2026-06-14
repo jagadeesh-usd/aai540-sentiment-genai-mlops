@@ -1,1 +1,15 @@
 yelp_data_temp/
+# Large model and data files
+model.tar.gz
+xgboost-model
+*.csv
+prod_inference.csv
+train_xgb.csv
+val_xgb.csv
+test_xgb.csv
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local model artifacts (stored in S3)
+xgboost_evaluation.png
