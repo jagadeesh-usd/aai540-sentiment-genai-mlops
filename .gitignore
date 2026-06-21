@@ -1,3 +1,4 @@
+data/
 yelp_data_temp/
 # Large model and data files
 model.tar.gz
