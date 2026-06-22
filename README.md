@@ -126,7 +126,6 @@ This project was developed and run on AWS SageMaker Studio (AWS Academy lab envi
 
 - `sentence-transformers` requires Python 3.10+; the CI/CD pipeline uses a `FrameworkProcessor` (PyTorch container, `py310`) rather than the default `SKLearnProcessor` (Python 3.9) for this reason
 - AWS region: `us-east-1`
-- S3 bucket structure documented in the [ML Design Document](docs/AAI-540_ML_Design_Document_Final.docx)
 
 ## Future Enhancements
 
