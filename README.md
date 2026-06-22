@@ -65,7 +65,7 @@ Raw JSON (S3) → Glue/Athena → Feature Store (SageMaker)
 │   ├── 05_Monitoring.ipynb                      # Model/data quality baselines, CloudWatch dashboard, drift simulation
 │   ├── 06_CICD_Pipeline.ipynb                   # SageMaker Pipelines DAG — success & forced-failure quality gate demo
 │   └── 07_GenAI_Response.ipynb                  # JumpStart LLM draft response generation
-├── pipeline_scripts/
+├── notebooks/pipeline_scripts/
 │   ├── preprocessing.py                         # CI/CD pipeline preprocessing step (embeddings + sampling)
 │   └── evaluate.py                              # CI/CD pipeline evaluation step
 ├── data/                                        # Local data staging (large files excluded via .gitignore; canonical data lives in S3)
